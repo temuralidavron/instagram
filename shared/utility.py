@@ -2,7 +2,7 @@ import re
 import threading
 from twilio.rest import Client
 import phonenumbers
-from decouple import config
+# from decouple import config
 from django.core.mail import EmailMessage
 from django.template.loader import render_to_string
 from rest_framework.exceptions import ValidationError
